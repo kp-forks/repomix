@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 Indicação para os Open Source Awards
 
 Estamos honrados! O Repomix foi indicado na categoria **Powered by AI** no [JSNation Open Source Awards 2025](https://osawards.com/javascript/).
@@ -190,6 +192,18 @@ Crie um `repomix.config.json` para configurações persistentes:
   }
 }
 ```
+
+## Guia de Usuários Avançados
+
+O Repomix oferece recursos poderosos para casos de uso avançados. Aqui estão alguns guias essenciais para usuários avançados:
+
+- **[Servidor MCP](./guide/mcp-server)** - Integração do Model Context Protocol para assistentes de IA
+- **[GitHub Actions](./guide/github-actions)** - Automatize o empacotamento de código base em workflows de CI/CD
+- **[Compressão de Código](./guide/code-compress)** - Compressão inteligente baseada em Tree-sitter (~70% de redução de tokens)
+- **[Usar como Biblioteca](./guide/development/using-repomix-as-a-library)** - Integre o Repomix em suas aplicações Node.js
+- **[Instruções Personalizadas](./guide/custom-instructions)** - Adicione prompts e instruções personalizadas às saídas
+- **[Recursos de Segurança](./guide/security)** - Integração Secretlint incorporada e verificações de segurança
+- **[Melhores Práticas](./guide/tips/best-practices)** - Otimize seus workflows de IA com estratégias comprovadas
 
 ### Mais Exemplos
 ::: tip Precisa de mais ajuda? 💡

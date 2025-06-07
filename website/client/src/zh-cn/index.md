@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 开源奖项提名
 
 我们深感荣幸！Repomix 已被提名为 [JSNation Open Source Awards 2025](https://osawards.com/javascript/) 的 **Powered by AI** 类别奖项。
@@ -194,6 +196,18 @@ repomix --style plain
   }
 }
 ```
+
+## 高级用户指南
+
+Repomix 为高级用例提供强大的功能。以下是高级用户的一些重要指南：
+
+- **[MCP 服务器](./guide/mcp-server)** - AI 助手的 Model Context Protocol 集成
+- **[GitHub Actions](./guide/github-actions)** - 在 CI/CD 工作流中自动化代码库打包
+- **[代码压缩](./guide/code-compress)** - 基于 Tree-sitter 的智能压缩（约 70% 令牌减少）
+- **[作为库使用](./guide/development/using-repomix-as-a-library)** - 将 Repomix 集成到您的 Node.js 应用程序中
+- **[自定义指令](./guide/custom-instructions)** - 为输出添加自定义提示和指令
+- **[安全功能](./guide/security)** - 内置 Secretlint 集成和安全检查
+- **[最佳实践](./guide/tips/best-practices)** - 使用经过验证的策略优化您的 AI 工作流
 
 ### 更多示例
 ::: tip 需要更多帮助？ 💡

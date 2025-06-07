@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 Open Source Awards Nomination
 
 We're honored! Repomix has been nominated for the **Powered by AI** category at the [JSNation Open Source Awards 2025](https://osawards.com/javascript/).
@@ -193,6 +195,18 @@ Create a `repomix.config.json` for persistent settings:
   }
 }
 ```
+
+## Power Users Guide
+
+Repomix offers powerful features for advanced use cases. Here are some essential guides for power users:
+
+- **[MCP Server](/guide/mcp-server)** - Model Context Protocol integration for AI assistants
+- **[GitHub Actions](/guide/github-actions)** - Automate codebase packing in CI/CD workflows
+- **[Code Compression](/guide/code-compress)** - Tree-sitter based intelligent compression (~70% token reduction)
+- **[Using as Library](/guide/development/using-repomix-as-a-library)** - Integrate Repomix into your Node.js applications
+- **[Custom Instructions](/guide/custom-instructions)** - Add custom prompts and instructions to outputs
+- **[Security Features](/guide/security)** - Built-in Secretlint integration and safety checks
+- **[Best Practices](/guide/tips/best-practices)** - Optimize your AI workflows with proven strategies
 
 ### More Examples
 ::: tip Need more help? 💡

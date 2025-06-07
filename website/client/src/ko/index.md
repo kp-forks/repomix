@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 오픈소스 어워드 후보 지명
 
 영광입니다! Repomix가 [JSNation Open Source Awards 2025](https://osawards.com/javascript/)의 **Powered by AI** 카테고리에 후보로 지명되었습니다.
@@ -194,6 +196,18 @@ repomix --style plain
   }
 }
 ```
+
+## 파워 유저 가이드
+
+Repomix는 고급 사용 사례를 위한 강력한 기능들을 제공합니다. 파워 유저를 위한 필수 가이드들을 소개합니다:
+
+- **[MCP 서버](./guide/mcp-server)** - AI 어시스턴트를 위한 Model Context Protocol 통합
+- **[GitHub Actions](./guide/github-actions)** - CI/CD 워크플로우에서 코드베이스 패키징 자동화
+- **[코드 압축](./guide/code-compress)** - Tree-sitter 기반 인텔리전트 압축 (~70% 토큰 감소)
+- **[라이브러리로 사용하기](./guide/development/using-repomix-as-a-library)** - Node.js 애플리케이션에 Repomix 통합
+- **[커스텀 지시사항](./guide/custom-instructions)** - 출력에 커스텀 프롬프트와 지시사항 추가
+- **[보안 기능](./guide/security)** - 내장된 Secretlint 통합 및 안전성 검사
+- **[모범 사례](./guide/tips/best-practices)** - 검증된 전략으로 AI 워크플로우 최적화
 
 ### 더 많은 예제
 ::: tip 더 자세한 도움이 필요하신가요? 💡

@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 Nominasi Open Source Awards
 
 Kami merasa terhormat! Repomix telah dinominasikan untuk kategori **Powered by AI** di [JSNation Open Source Awards 2025](https://osawards.com/javascript/).
@@ -193,6 +195,18 @@ Buat `repomix.config.json` untuk pengaturan permanen:
   }
 }
 ```
+
+## Panduan Pengguna Mahir
+
+Repomix menawarkan fitur-fitur canggih untuk kasus penggunaan lanjutan. Berikut adalah beberapa panduan penting untuk pengguna mahir:
+
+- **[Server MCP](./guide/mcp-server)** - Integrasi Model Context Protocol untuk asisten AI
+- **[GitHub Actions](./guide/github-actions)** - Otomatisasi pengemasan codebase dalam alur kerja CI/CD
+- **[Kompresi Kode](./guide/code-compress)** - Kompresi cerdas berbasis Tree-sitter (~70% pengurangan token)
+- **[Menggunakan sebagai Library](./guide/development/using-repomix-as-a-library)** - Integrasikan Repomix ke dalam aplikasi Node.js Anda
+- **[Instruksi Kustom](./guide/custom-instructions)** - Tambahkan prompt dan instruksi kustom ke output
+- **[Fitur Keamanan](./guide/security)** - Integrasi Secretlint bawaan dan pemeriksaan keamanan
+- **[Best Practices](./guide/tips/best-practices)** - Optimalkan alur kerja AI Anda dengan strategi yang terbukti
 
 ### Contoh Lainnya
 ::: tip Butuh bantuan lebih? 💡

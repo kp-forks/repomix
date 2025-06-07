@@ -26,6 +26,8 @@ features:
 
 <div class="cli-section">
 
+[![Sponsors](https://cdn.jsdelivr.net/gh/yamadashy/sponsor-list/sponsors/sponsors.png)](https://github.com/sponsors/yamadashy)
+
 ## 🏆 ओपन सोर्स अवार्ड्स नामांकन
 
 हमें सम्मान मिला है! Repomix को [JSNation Open Source Awards 2025](https://osawards.com/javascript/) के **Powered by AI** श्रेणी में नामांकित किया गया है।
@@ -193,6 +195,18 @@ repomix --style plain
   }
 }
 ```
+
+## पावर यूज़र गाइड
+
+Repomix उन्नत उपयोग के मामलों के लिए शक्तिशाली सुविधाएं प्रदान करता है। पावर यूज़र्स के लिए कुछ आवश्यक गाइड यहां हैं:
+
+- **[MCP सर्वर](./guide/mcp-server)** - AI असिस्टेंट के लिए Model Context Protocol एकीकरण
+- **[GitHub Actions](./guide/github-actions)** - CI/CD वर्कफ़्लो में कोडबेस पैकेजिंग को स्वचालित करें
+- **[कोड कंप्रेशन](./guide/code-compress)** - Tree-sitter आधारित इंटेलिजेंट कंप्रेशन (~70% टोकन कमी)
+- **[लाइब्रेरी के रूप में उपयोग](./guide/development/using-repomix-as-a-library)** - अपने Node.js एप्लिकेशन में Repomix को एकीकृत करें
+- **[कस्टम निर्देश](./guide/custom-instructions)** - आउटपुट में कस्टम प्रॉम्प्ट और निर्देश जोड़ें
+- **[सुरक्षा सुविधाएं](./guide/security)** - अंतर्निहित Secretlint एकीकरण और सुरक्षा जांच
+- **[सर्वोत्तम प्रथाएं](./guide/tips/best-practices)** - सिद्ध रणनीतियों के साथ अपने AI वर्कफ़्लो को अनुकूलित करें
 
 ### अधिक उदाहरण
 ::: tip अधिक मदद चाहिए? 💡
