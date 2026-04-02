@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774804084871,
+  "lastUpdate": 1775145617224,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -45,6 +45,44 @@ window.BENCHMARK_DATA = {
             "range": "±14",
             "unit": "ms",
             "extra": "Median of 10 runs\nQ1: 3812ms, Q3: 3826ms\nAll times: 3782, 3790, 3812, 3814, 3821, 3823, 3825, 3826, 3839, 3890ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81fc9ebd9e094c97882a893f766e898c70dc3b2d",
+          "message": "Merge pull request #1354 from yamadashy/chore/pr-resolve-outdated-auto-reply\n\nchore(agents): Skip confirmation and auto-reply on pr-resolve-outdated",
+          "timestamp": "2026-03-29T23:08:07+09:00",
+          "tree_id": "887b25858afed1fd09c61ab878862e899fe6a885",
+          "url": "https://github.com/kp-forks/repomix/commit/81fc9ebd9e094c97882a893f766e898c70dc3b2d"
+        },
+        "date": 1775145616867,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 2507,
+            "range": "±69",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2468ms, Q3: 2537ms\nAll times: 2429, 2437, 2441, 2449, 2466, 2468, 2472, 2494, 2497, 2506, 2507, 2518, 2523, 2531, 2533, 2537, 2540, 2553, 2571, 2639ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 3339,
+            "range": "±140",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 3291ms, Q3: 3431ms\nAll times: 3001, 3051, 3223, 3261, 3288, 3291, 3292, 3297, 3322, 3332, 3339, 3349, 3362, 3367, 3426, 3431, 3451, 3501, 3713, 4075ms"
           }
         ]
       }
