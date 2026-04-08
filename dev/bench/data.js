@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775145617224,
+  "lastUpdate": 1775657361720,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -83,6 +83,44 @@ window.BENCHMARK_DATA = {
             "range": "±140",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 3291ms, Q3: 3431ms\nAll times: 3001, 3051, 3223, 3261, 3288, 3291, 3292, 3297, 3322, 3332, 3339, 3349, 3362, 3367, 3426, 3431, 3451, 3501, 3713, 4075ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eca9ad78cdcb222c8e545b60953bbbc4930c231d",
+          "message": "Merge pull request #1419 from yamadashy/chore/website-update-repomix-dep\n\nchore(website): Update repomix dependency to latest main",
+          "timestamp": "2026-04-06T18:44:45+09:00",
+          "tree_id": "93d21cb9f6190905ac9414a7c8422dbe0c0497fb",
+          "url": "https://github.com/kp-forks/repomix/commit/eca9ad78cdcb222c8e545b60953bbbc4930c231d"
+        },
+        "date": 1775657361249,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1608,
+            "range": "±216",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1540ms, Q3: 1756ms\nAll times: 1340, 1413, 1431, 1483, 1488, 1504, 1540, 1540, 1547, 1547, 1554, 1559, 1565, 1589, 1600, 1608, 1613, 1666, 1667, 1688, 1698, 1728, 1756, 1797, 1799, 1872, 1910, 1950, 2149, 2280ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1924,
+            "range": "±52",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1904ms, Q3: 1956ms\nAll times: 1879, 1884, 1885, 1898, 1900, 1904, 1912, 1920, 1922, 1924, 1924, 1938, 1943, 1943, 1955, 1956, 1962, 2058, 2186, 2329ms"
           }
         ]
       }
