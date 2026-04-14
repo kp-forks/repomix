@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776000816920,
+  "lastUpdate": 1776162959150,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -159,6 +159,51 @@ window.BENCHMARK_DATA = {
             "range": "±201",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 2420ms, Q3: 2621ms\nAll times: 2380, 2388, 2400, 2408, 2408, 2420, 2424, 2430, 2441, 2445, 2458, 2465, 2480, 2570, 2590, 2621, 2707, 3017, 3093, 3245ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b8a46fa135972fcf81eee7784e121fea21fa909",
+          "message": "Merge pull request #1456 from yamadashy/perf/security-neutralize-profiler-via-perf-hooks\n\nperf(security): Patch perf_hooks.performance.mark to neutralize duplicate @secretlint/profiler singletons",
+          "timestamp": "2026-04-12T14:32:33+09:00",
+          "tree_id": "60517fe20d1566b026620d79c20c15600ec69698",
+          "url": "https://github.com/kp-forks/repomix/commit/9b8a46fa135972fcf81eee7784e121fea21fa909"
+        },
+        "date": 1776162958661,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1449,
+            "range": "±423",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1281ms, Q3: 1704ms\nAll times: 1129, 1166, 1178, 1189, 1205, 1235, 1256, 1281, 1290, 1321, 1338, 1343, 1354, 1372, 1424, 1449, 1458, 1540, 1573, 1577, 1585, 1627, 1704, 1938, 1946, 1958, 1967, 1972, 1981, 2389ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1870,
+            "range": "±26",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1864ms, Q3: 1890ms\nAll times: 1824, 1827, 1830, 1852, 1855, 1864, 1865, 1865, 1867, 1869, 1870, 1871, 1877, 1884, 1890, 1890, 1890, 1894, 1901, 1908ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2659,
+            "range": "±590",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2161ms, Q3: 2751ms\nAll times: 2140, 2143, 2144, 2146, 2149, 2161, 2162, 2169, 2216, 2227, 2659, 2665, 2705, 2709, 2712, 2751, 2773, 2774, 2807, 2862ms"
           }
         ]
       }
