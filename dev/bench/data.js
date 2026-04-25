@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776506286220,
+  "lastUpdate": 1777137323602,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -249,6 +249,44 @@ window.BENCHMARK_DATA = {
             "range": "±299",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1454ms, Q3: 1753ms\nAll times: 1437, 1442, 1442, 1450, 1451, 1454, 1454, 1459, 1462, 1462, 1465, 1473, 1478, 1695, 1743, 1753, 1773, 1777, 1783, 1790ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99ea7d2de7a5730498cac249c70f520e485cd92a",
+          "message": "Merge pull request #1505 from yamadashy/chore/temp-disable-website-auto-pack\n\nchore(website): Temporarily disable auto-pack on repo query param",
+          "timestamp": "2026-04-24T00:44:21+09:00",
+          "tree_id": "87a8740ca2718ea06aada55e42ae49584c201325",
+          "url": "https://github.com/kp-forks/repomix/commit/99ea7d2de7a5730498cac249c70f520e485cd92a"
+        },
+        "date": 1777137323269,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1392,
+            "range": "±108",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1362ms, Q3: 1470ms\nAll times: 1246, 1280, 1290, 1308, 1324, 1334, 1361, 1362, 1365, 1369, 1372, 1376, 1379, 1385, 1390, 1392, 1398, 1405, 1409, 1413, 1434, 1462, 1470, 1476, 1493, 1495, 1504, 1540, 1557, 1670ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1486,
+            "range": "±23",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1478ms, Q3: 1501ms\nAll times: 1452, 1455, 1455, 1470, 1475, 1478, 1479, 1479, 1484, 1485, 1486, 1486, 1489, 1493, 1495, 1501, 1506, 1506, 1521, 1521ms"
           }
         ]
       }
