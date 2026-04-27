@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777137323602,
+  "lastUpdate": 1777308386767,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -287,6 +287,44 @@ window.BENCHMARK_DATA = {
             "range": "±23",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1478ms, Q3: 1501ms\nAll times: 1452, 1455, 1455, 1470, 1475, 1478, 1479, 1479, 1484, 1485, 1486, 1486, 1489, 1493, 1495, 1501, 1506, 1506, 1521, 1521ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ea06cb1080fa18ad421b4886f7e5deba06998cb",
+          "message": "Merge pull request #1513 from yamadashy/dependabot/npm_and_yarn/browser/npm_and_yarn-87d6b5a2fd\n\nchore(deps): Bump the npm_and_yarn group across 2 directories with 1 update",
+          "timestamp": "2026-04-25T20:07:33+09:00",
+          "tree_id": "d387086ba4496e01b616543a304cfa0fd133a83f",
+          "url": "https://github.com/kp-forks/repomix/commit/3ea06cb1080fa18ad421b4886f7e5deba06998cb"
+        },
+        "date": 1777308385920,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 954,
+            "range": "±112",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 936ms, Q3: 1048ms\nAll times: 870, 879, 909, 925, 926, 929, 933, 936, 936, 940, 944, 946, 948, 948, 952, 954, 956, 961, 969, 972, 974, 1005, 1048, 1082, 1091, 1155, 1433, 1460, 1483, 1619ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2372,
+            "range": "±73",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2331ms, Q3: 2404ms\nAll times: 2302, 2323, 2329, 2330, 2331, 2331, 2340, 2340, 2351, 2357, 2372, 2374, 2376, 2395, 2396, 2404, 2405, 2406, 2407, 2407ms"
           }
         ]
       }
