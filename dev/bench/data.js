@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780291368281,
+  "lastUpdate": 1780461387487,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -678,6 +678,44 @@ window.BENCHMARK_DATA = {
             "range": "±32",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1226ms, Q3: 1258ms\nAll times: 1047, 1191, 1210, 1217, 1217, 1226, 1227, 1230, 1243, 1247, 1247, 1247, 1256, 1256, 1257, 1258, 1263, 1265, 1267, 1280ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4eac374c285efab96cfa89de31f1335ce7b1983",
+          "message": "Merge pull request #1613 from yamadashy/renovate/root-non-major-dependencies\n\nchore(deps): update dependency @typescript/native-preview to ^7.0.0-dev.20260523.1",
+          "timestamp": "2026-05-30T18:28:44+09:00",
+          "tree_id": "b1d6282aab3efc630ecb3ac4d250788aa2957021",
+          "url": "https://github.com/kp-forks/repomix/commit/c4eac374c285efab96cfa89de31f1335ce7b1983"
+        },
+        "date": 1780461386973,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 572,
+            "range": "±121",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 516ms, Q3: 637ms\nAll times: 461, 476, 490, 493, 494, 510, 514, 516, 519, 525, 533, 539, 555, 563, 572, 572, 574, 578, 579, 579, 581, 615, 637, 660, 673, 675, 675, 716, 852, 926ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 833,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 818ms, Q3: 849ms\nAll times: 813, 817, 818, 818, 818, 818, 818, 826, 833, 833, 833, 833, 834, 841, 846, 849, 851, 853, 855, 859ms"
           }
         ]
       }
