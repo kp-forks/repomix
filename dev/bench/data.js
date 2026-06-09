@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780853064316,
+  "lastUpdate": 1781022862085,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -761,6 +761,44 @@ window.BENCHMARK_DATA = {
             "range": "±19",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1101ms, Q3: 1120ms\nAll times: 1090, 1096, 1096, 1099, 1100, 1101, 1101, 1104, 1104, 1105, 1107, 1112, 1113, 1116, 1120, 1120, 1124, 1127, 1128, 1142ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d62905673dd0e5bea9f335211e7c3814754cbed6",
+          "message": "Merge pull request #1618 from Samsen879/fix-multiroot-output-paths\n\nfix multi-root duplicate relative paths",
+          "timestamp": "2026-06-07T19:37:02+09:00",
+          "tree_id": "fcfa9b334934e58c13a8c9068f0df7a91681a4fa",
+          "url": "https://github.com/kp-forks/repomix/commit/d62905673dd0e5bea9f335211e7c3814754cbed6"
+        },
+        "date": 1781022861259,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 598,
+            "range": "±103",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 561ms, Q3: 664ms\nAll times: 524, 537, 540, 542, 544, 557, 559, 561, 567, 569, 574, 579, 582, 584, 590, 598, 609, 612, 619, 623, 652, 652, 664, 692, 692, 715, 735, 739, 741, 858ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 629,
+            "range": "±8",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 625ms, Q3: 633ms\nAll times: 608, 622, 623, 624, 624, 625, 625, 627, 627, 628, 629, 629, 629, 631, 633, 633, 635, 635, 635, 636ms"
           }
         ]
       }
