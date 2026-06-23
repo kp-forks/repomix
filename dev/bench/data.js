@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781889377862,
+  "lastUpdate": 1782229482984,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -889,6 +889,44 @@ window.BENCHMARK_DATA = {
             "range": "±142",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1214ms, Q3: 1356ms\nAll times: 1192, 1201, 1204, 1207, 1213, 1214, 1217, 1219, 1220, 1226, 1234, 1236, 1248, 1261, 1350, 1356, 1489, 1494, 1516, 1688ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c62ff43444eabc34611cb7b813f1f33993880db",
+          "message": "Merge pull request #1666 from yamadashy/docs/output-file-path-style\n\ndocs(website): Document output.filePathStyle in 14 locales",
+          "timestamp": "2026-06-21T14:24:07+09:00",
+          "tree_id": "ec980a052a16dc795e2bf93649048aea9b54ee52",
+          "url": "https://github.com/kp-forks/repomix/commit/6c62ff43444eabc34611cb7b813f1f33993880db"
+        },
+        "date": 1782229482442,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 828,
+            "range": "±19",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 816ms, Q3: 835ms\nAll times: 807, 811, 813, 815, 815, 816, 817, 821, 822, 822, 828, 828, 828, 834, 835, 835, 836, 837, 840, 853ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1172,
+            "range": "±42",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1158ms, Q3: 1200ms\nAll times: 1135, 1149, 1152, 1154, 1157, 1158, 1163, 1167, 1167, 1168, 1172, 1177, 1177, 1177, 1179, 1200, 1203, 1240, 1306, 1581ms"
           }
         ]
       }
