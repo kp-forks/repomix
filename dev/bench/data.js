@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782229482984,
+  "lastUpdate": 1783075696160,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -927,6 +927,44 @@ window.BENCHMARK_DATA = {
             "range": "±42",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1158ms, Q3: 1200ms\nAll times: 1135, 1149, 1152, 1154, 1157, 1158, 1163, 1167, 1167, 1168, 1172, 1177, 1177, 1177, 1179, 1200, 1203, 1240, 1306, 1581ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6873d5212227998a4de7395744acc1f2d894cc20",
+          "message": "Merge pull request #1681 from isaka1022/fix/tree-sitter-memory-leak\n\nfix(core): free web-tree-sitter Tree after parsing to avoid WASM heap leak",
+          "timestamp": "2026-06-30T23:42:43+09:00",
+          "tree_id": "e918b1347dd141aba65698cecfcfda6a0bdaa176",
+          "url": "https://github.com/kp-forks/repomix/commit/6873d5212227998a4de7395744acc1f2d894cc20"
+        },
+        "date": 1783075695807,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 501,
+            "range": "±39",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 489ms, Q3: 528ms\nAll times: 457, 465, 467, 468, 470, 472, 474, 489, 492, 493, 494, 496, 497, 497, 501, 501, 505, 507, 508, 512, 517, 519, 528, 533, 554, 578, 600, 628, 644, 667ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 900,
+            "range": "±19",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 894ms, Q3: 913ms\nAll times: 870, 874, 882, 886, 889, 894, 897, 897, 898, 898, 900, 901, 902, 906, 912, 913, 914, 914, 921, 925ms"
           }
         ]
       }
