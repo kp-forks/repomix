@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783241490988,
+  "lastUpdate": 1783790293783,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1010,6 +1010,44 @@ window.BENCHMARK_DATA = {
             "range": "±25",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1229ms, Q3: 1254ms\nAll times: 1202, 1214, 1216, 1223, 1226, 1229, 1233, 1235, 1235, 1236, 1237, 1240, 1242, 1243, 1246, 1254, 1259, 1267, 1275, 1279ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab81efd8e7e99bc3ae3a897d89e0790e4c999f4f",
+          "message": "Merge pull request #1711 from yamadashy/refactor/token-count-tree-typing\n\nrefactor(core): Use a discriminated node type for the token count tree",
+          "timestamp": "2026-07-10T00:31:04+09:00",
+          "tree_id": "04196f6bc36e5c76dfe9ee93e97446575d697fa5",
+          "url": "https://github.com/kp-forks/repomix/commit/ab81efd8e7e99bc3ae3a897d89e0790e4c999f4f"
+        },
+        "date": 1783790292941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 865,
+            "range": "±17",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 856ms, Q3: 873ms\nAll times: 841, 841, 847, 848, 854, 856, 861, 862, 862, 864, 865, 866, 868, 872, 872, 873, 875, 907, 908, 962ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1298,
+            "range": "±15",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1289ms, Q3: 1304ms\nAll times: 1268, 1273, 1279, 1284, 1289, 1289, 1290, 1291, 1293, 1294, 1298, 1299, 1300, 1300, 1301, 1304, 1305, 1311, 1337, 1343ms"
           }
         ]
       }
