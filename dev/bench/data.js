@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783790293783,
+  "lastUpdate": 1785908680130,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1048,6 +1048,44 @@ window.BENCHMARK_DATA = {
             "range": "±15",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1289ms, Q3: 1304ms\nAll times: 1268, 1273, 1279, 1284, 1289, 1289, 1290, 1291, 1293, 1294, 1298, 1299, 1300, 1300, 1301, 1304, 1305, 1311, 1337, 1343ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44437378d809084a5f264234f588d6b301457858",
+          "message": "Merge pull request #1769 from yamadashy/fix/mcp-sandbox-symlink-escape\n\nfix(mcp): Close a symlink escape in the sandbox pack confinement",
+          "timestamp": "2026-08-02T02:00:40+09:00",
+          "tree_id": "45fa0dc1503bd205d4e404509b8904bfe59f2402",
+          "url": "https://github.com/kp-forks/repomix/commit/44437378d809084a5f264234f588d6b301457858"
+        },
+        "date": 1785908679518,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 930,
+            "range": "±66",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 911ms, Q3: 977ms\nAll times: 897, 900, 904, 909, 909, 911, 917, 923, 926, 928, 930, 932, 932, 946, 948, 977, 1044, 1046, 1083, 1117ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1288,
+            "range": "±30",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1272ms, Q3: 1302ms\nAll times: 1252, 1260, 1263, 1269, 1272, 1272, 1274, 1277, 1285, 1286, 1288, 1289, 1291, 1294, 1301, 1302, 1309, 1313, 1320, 1320ms"
           }
         ]
       }
