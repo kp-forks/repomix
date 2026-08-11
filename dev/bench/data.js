@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785908680130,
+  "lastUpdate": 1786423870382,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1086,6 +1086,44 @@ window.BENCHMARK_DATA = {
             "range": "±30",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1272ms, Q3: 1302ms\nAll times: 1252, 1260, 1263, 1269, 1272, 1272, 1274, 1277, 1285, 1286, 1288, 1289, 1291, 1294, 1301, 1302, 1309, 1313, 1320, 1320ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffe1f0cf19ae10ebd247c70d9a3ad57a29ecc829",
+          "message": "Merge pull request #1786 from yamadashy/renovate/major-browser-major-dependencies\n\nchore(deps): update dependency jsdom to v30",
+          "timestamp": "2026-08-08T16:31:43+09:00",
+          "tree_id": "6d20808ed2d317fd4d3c23434614e67eba59ec9f",
+          "url": "https://github.com/kp-forks/repomix/commit/ffe1f0cf19ae10ebd247c70d9a3ad57a29ecc829"
+        },
+        "date": 1786423869005,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 928,
+            "range": "±17",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 922ms, Q3: 939ms\nAll times: 905, 914, 915, 917, 920, 922, 924, 924, 925, 925, 928, 930, 931, 936, 937, 939, 939, 940, 941, 948ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1331,
+            "range": "±43",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1313ms, Q3: 1356ms\nAll times: 1276, 1292, 1294, 1296, 1306, 1313, 1319, 1324, 1328, 1329, 1331, 1340, 1342, 1345, 1356, 1356, 1366, 1375, 1384, 1413ms"
           }
         ]
       }
