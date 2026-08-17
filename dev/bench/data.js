@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786423870382,
+  "lastUpdate": 1786965706206,
   "repoUrl": "https://github.com/kp-forks/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1124,6 +1124,44 @@ window.BENCHMARK_DATA = {
             "range": "±43",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1313ms, Q3: 1356ms\nAll times: 1276, 1292, 1294, 1296, 1306, 1313, 1319, 1324, 1328, 1329, 1331, 1340, 1342, 1345, 1356, 1356, 1366, 1375, 1384, 1413ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bbf052a48e942315deabdf146e62fd0fc1f091a",
+          "message": "Merge pull request #1775 from yamadashy/fix/gitignore-backslash-crash\n\ntest(core): Add regression tests for the Windows .gitignore backslash crash",
+          "timestamp": "2026-08-15T17:47:15+09:00",
+          "tree_id": "2510df8461dd29d9ed2276ba29ff1d8b5029530a",
+          "url": "https://github.com/kp-forks/repomix/commit/7bbf052a48e942315deabdf146e62fd0fc1f091a"
+        },
+        "date": 1786965704329,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 884,
+            "range": "±16",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 876ms, Q3: 892ms\nAll times: 866, 870, 870, 871, 873, 876, 878, 880, 880, 882, 884, 886, 888, 888, 890, 892, 894, 896, 904, 995ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1204,
+            "range": "±35",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1187ms, Q3: 1222ms\nAll times: 1178, 1180, 1182, 1184, 1184, 1187, 1197, 1198, 1202, 1204, 1204, 1205, 1206, 1207, 1218, 1222, 1224, 1238, 1254, 1269ms"
           }
         ]
       }
